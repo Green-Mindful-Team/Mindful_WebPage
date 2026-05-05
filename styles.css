@@ -93,3 +93,53 @@ Github link button
   background-color: #555;
 }
 
+.videos {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.video-card {
+  margin: 25px auto;
+}
+
+.video-card video {
+  max-width: 90%;
+  border-radius: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;   /* centers the row */
+  gap: 15px;                 /* space between buttons */
+  margin: 30px 0;
+  flex-wrap: wrap;           /* allows wrapping on smaller screens */
+}
+
+.videos {
+  text-align: center;
+}
+
+.video-card {
+  margin: 30px 0;
+}
+
+.video-card iframe {
+  width: 560px;
+  height: 315px;
+  max-width: 90%;
+  border-radius: 12px;
+}
